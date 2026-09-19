@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #f7f4ee; }
+  a { color: #c9820a; }
+  a:hover { color: #f0a91e; }
+  * { box-sizing: border-box; }
+</style>
+</helmet>
+
+<div id="top" style="font-family:'Inter',sans-serif;background:#f7f4ee;color:#221d15;overflow-x:hidden;">
+
+  <!-- NAV -->
+  <header style="position:sticky;top:0;z-index:50;background:rgba(19,16,11,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(240,169,30,.16);">
+    <div style="max-width:1240px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+      <a href="#top" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+        <img src="assets/logo.png" alt="SNADRILL" style="height:48px;width:auto;display:block;">
+      </a>
+      <nav style="display:flex;align-items:center;gap:22px;flex-wrap:wrap;">
+        <a href="#equipamentos" style="color:#e9e4d8;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:.02em;">Equipamentos</a>
+        <a href="#servicos" style="color:#e9e4d8;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:.02em;">Manutenção</a>
+        <a href="#sobre" style="color:#e9e4d8;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:.02em;">Sobre</a>
+        <a href="https://wa.me/5561981053844" style="background:#f0a91e;color:#1a1608;text-decoration:none;font-size:14px;font-weight:700;padding:11px 20px;border-radius:999px;white-space:nowrap;">(61) 98105-3844</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section style="position:relative;min-height:min(88vh,760px);display:flex;align-items:flex-end;">
+    <img src="assets/hero-quarry.jpeg" alt="Perfuratriz operando em pedreira" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%;">
+    <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(15,13,9,0.92) 5%,rgba(15,13,9,0.55) 55%,rgba(15,13,9,0.35) 100%);"></div>
+    <div style="position:relative;max-width:1240px;margin:0 auto;padding:120px 24px 72px;width:100%;">
+      <div style="color:#f0a91e;font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.14em;font-size:14px;margin-bottom:14px;text-transform:uppercase;">Locação de perfuratrizes e equipamentos de perfuração</div>
+      <h1 style="font-family:'Oswald',sans-serif;color:#faf8f3;font-weight:700;font-size:clamp(32px,5.2vw,58px);line-height:1.06;margin:0 0 20px;max-width:820px;text-transform:uppercase;">Máquinas prontas para perfurar a sua próxima frente de rocha</h1>
+      <p style="color:#e2ddd0;font-size:17px;line-height:1.6;max-width:600px;margin:0 0 32px;">Locamos perfuratrizes hidráulicas e equipamentos de perfuração para mineração, pedreiras, infraestrutura e desmonte de rocha, com suporte técnico especializado da SNADRILL.</p>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="https://wa.me/5561981053844" style="background:#f0a91e;color:#1a1608;text-decoration:none;font-weight:700;font-size:15px;padding:16px 30px;border-radius:999px;box-shadow:0 10px 26px -12px rgba(240,169,30,.9);">Falar no WhatsApp</a>
+        <a href="#equipamentos" style="background:rgba(255,255,255,.06);border:1px solid rgba(250,248,243,.35);color:#faf8f3;text-decoration:none;font-weight:600;font-size:15px;padding:16px 30px;border-radius:999px;backdrop-filter:blur(6px);">Ver equipamentos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPAMENTOS -->
+  <section id="equipamentos" style="background:#f7f4ee;padding:96px 24px;">
+    <div style="max-width:1240px;margin:0 auto;">
+      <div style="color:#c9820a;font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.14em;font-size:13px;margin-bottom:10px;text-transform:uppercase;">Frota própria</div>
+      <h2 style="font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(26px,3.4vw,38px);margin:0 0 14px;color:#17140f;text-transform:uppercase;">Equipamentos disponíveis para locação</h2>
+      <p style="font-size:16px;line-height:1.6;color:#4a463f;max-width:640px;margin:0 0 48px;">Perfuratrizes robustas e revisadas, prontas para operar em desmonte de rocha, abertura de galerias e produção.</p>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:32px;">
+
+        <!-- ROC D7 -->
+        <div style="background:#fff;border:1px solid #ece6da;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(23,20,15,.04),0 18px 40px -24px rgba(23,20,15,.28);">
+          <div style="aspect-ratio:4/3;overflow:hidden;">
+            <img src="assets/roc-d7-hero.jpeg" alt="Atlas Copco ROC D7" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div style="padding:28px;">
+            <div style="display:inline-block;background:#f3ead8;color:#c9820a;font-size:12px;font-weight:700;letter-spacing:.06em;padding:6px 12px;border-radius:999px;margin-bottom:14px;text-transform:uppercase;">Perfuratriz de superfície</div>
+            <h3 style="font-family:'Oswald',sans-serif;font-weight:700;font-size:24px;margin:0 0 10px;color:#17140f;">Atlas Copco ROC D7</h3>
+            <p style="font-size:15px;line-height:1.6;color:#4a463f;margin:0 0 18px;">Perfuratriz hidráulica sobre esteiras, com lança articulada e sistema Top Hammer, indicada para furos de produção em mineração, pedreiras e desmonte de rocha.</p>
+            <div style="border-top:1px solid #ece6d8;padding-top:14px;">
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Deslocamento sobre esteiras</span></div>
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Lança hidráulica articulada, 360°</span></div>
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Cabine com comandos hidráulicos e eletrônicos</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- JUMBO DD210 -->
+        <div style="background:#fff;border:1px solid #ece6da;border-radius:18px;overflow:hidden;box-shadow:0 1px 2px rgba(23,20,15,.04),0 18px 40px -24px rgba(23,20,15,.28);">
+          <div style="aspect-ratio:4/3;overflow:hidden;">
+            <img src="assets/jumbo-dd210.jpeg" alt="Jumbo de perfuração DD210" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+          <div style="padding:28px;">
+            <div style="display:inline-block;background:#f3ead8;color:#c9820a;font-size:12px;font-weight:700;letter-spacing:.06em;padding:6px 12px;border-radius:999px;margin-bottom:14px;text-transform:uppercase;">Jumbo de perfuração</div>
+            <h3 style="font-family:'Oswald',sans-serif;font-weight:700;font-size:24px;margin:0 0 10px;color:#17140f;">Jumbo DD210</h3>
+            <p style="font-size:15px;line-height:1.6;color:#4a463f;margin:0 0 18px;">Equipamento para perfuração de galerias, com lança de alumínio e lança reserva completa, pronto para locação.</p>
+            <div style="border-top:1px solid #ece6d8;padding-top:6px;">
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Lança de alumínio com perfuração de até 3,7 m</span></div>
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Perfuração de galeria de 4,5 × 4,0 m (até 4,5 × 4,5 m)</span></div>
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Furo alargado de 4 polegadas</span></div>
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Diâmetro de perfuração de 2.1/2 polegadas</span></div>
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Lança reserva em ferro, montada, com perfuratriz reserva HL510</span></div>
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Lança para perfuração longa, giro de 360°</span></div>
+              <div style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14px;color:#3a352b;">Lança curta com comprimento de até 15 m</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <p style="font-size:14px;color:#7a7468;margin:28px 0 0;">Consulte disponibilidade, condições de locação e outros modelos com a nossa equipe.</p>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" style="background:#efe9de;padding:88px 24px;">
+    <div style="max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:48px;align-items:center;">
+      <div>
+        <div style="color:#c9820a;font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.14em;font-size:13px;margin-bottom:10px;text-transform:uppercase;">Quem somos</div>
+        <h2 style="font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(24px,3vw,32px);margin:0 0 18px;color:#17140f;text-transform:uppercase;">SNADRILL Máquinas e Serviços</h2>
+        <p style="font-size:16px;line-height:1.7;color:#4a463f;margin:0;">Atuamos na locação de perfuratrizes e equipamentos de perfuração de rocha e na manutenção especializada desses equipamentos, atendendo operações de mineração, pedreiras, infraestrutura e desmonte de rocha, com experiência em equipamentos Atlas Copco/Epiroc e Sandvik.</p>
+      </div>
+      <div style="aspect-ratio:4/3;overflow:hidden;border-radius:20px;box-shadow:0 24px 60px -32px rgba(23,20,15,.55);">
+        <img src="assets/cab-controls.jpeg" alt="Cabine de comando de perfuratriz" style="width:100%;height:100%;object-fit:cover;">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICOS -->
+  <section id="servicos" style="background:#f7f4ee;padding:96px 24px 64px;">
+    <div style="max-width:1240px;margin:0 auto;">
+      <div style="color:#c9820a;font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.14em;font-size:13px;margin-bottom:10px;text-transform:uppercase;">Manutenção especializada</div>
+      <h2 style="font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(26px,3.4vw,38px);margin:0 0 14px;color:#17140f;text-transform:uppercase;">Manutenção de perfuratrizes e equipamentos de perfuração</h2>
+      <p style="font-size:16px;line-height:1.7;color:#4a463f;max-width:760px;margin:0 0 48px;">Avaliação técnica, assistência especializada, manutenção preventiva e corretiva, recuperação de componentes e reforma de equipamentos e sistemas de perfuração, reduzindo paradas não programadas e prolongando a vida útil de componentes de alto valor.</p>
+
+      <h3 style="font-family:'Oswald',sans-serif;font-weight:600;font-size:19px;color:#17140f;margin:0 0 18px;text-transform:uppercase;">Principais serviços</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:0 32px;margin-bottom:56px;">
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Avaliação técnica e diagnóstico de equipamentos</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Assistência técnica especializada</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Manutenção preventiva e corretiva</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Identificação de desgastes e riscos de falha</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Avaliação e planejamento de reformas</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Recuperação de componentes e sistemas de perfuração</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Revisão de conjuntos hidráulicos e mecânicos</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Manutenção de perfuratrizes de topo</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Planejamento de intervenções</span></div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #e6e0d2;"><span style="width:6px;height:6px;background:#f0a91e;margin-top:7px;flex:none;"></span><span style="font-size:14.5px;color:#3a352b;">Recomendações para aumento de confiabilidade e disponibilidade</span></div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:48px;margin-bottom:64px;align-items:start;">
+        <div>
+          <h3 style="font-family:'Oswald',sans-serif;font-weight:600;font-size:19px;color:#17140f;margin:0 0 16px;text-transform:uppercase;">Equipamentos atendidos</h3>
+          <div style="background:#fff;border:1px solid #ece6da;border-radius:16px;padding:24px 26px;box-shadow:0 1px 2px rgba(23,20,15,.03),0 14px 32px -24px rgba(23,20,15,.24);margin-bottom:16px;">
+            <div style="font-weight:700;font-size:15px;color:#17140f;margin-bottom:8px;">Atlas Copco / Epiroc</div>
+            <div style="font-size:14.5px;color:#4a463f;line-height:1.8;">ROC D7 · ROC F9 · ROC T35 · ROC T40 · L8 · D65 · outros modelos, conforme avaliação técnica</div>
+          </div>
+          <div style="background:#fff;border:1px solid #ece6da;border-radius:16px;padding:24px 26px;box-shadow:0 1px 2px rgba(23,20,15,.03),0 14px 32px -24px rgba(23,20,15,.24);">
+            <div style="font-weight:700;font-size:15px;color:#17140f;margin-bottom:8px;">Perfuratrizes de topo (Top Hammer)</div>
+            <div style="font-size:14.5px;color:#4a463f;line-height:1.8;">1632 · 1838 · 1840 · 2560 · outros modelos</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div style="aspect-ratio:1/1;overflow:hidden;border-radius:18px;box-shadow:0 18px 44px -28px rgba(23,20,15,.5);"><img src="assets/top-hammer-1.jpeg" alt="Componente de perfuratriz Top Hammer" style="width:100%;height:100%;object-fit:cover;"></div>
+          <div style="aspect-ratio:1/1;overflow:hidden;border-radius:18px;box-shadow:0 18px 44px -28px rgba(23,20,15,.5);"><img src="assets/top-hammer-2.jpeg" alt="Cabeçotes de perfuratriz Top Hammer recuperados" style="width:100%;height:100%;object-fit:cover;"></div>
+        </div>
+      </div>
+
+      <h3 style="font-family:'Oswald',sans-serif;font-weight:600;font-size:19px;color:#17140f;margin:0 0 18px;text-transform:uppercase;">Como atuamos</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:24px;">
+        <div style="background:linear-gradient(160deg,#211c14 0%,#15120d 100%);border:1px solid #2e2819;border-radius:18px;padding:30px 28px;">
+          <div style="color:#f0a91e;font-family:'Oswald',sans-serif;font-weight:600;font-size:16px;margin-bottom:10px;">Avaliação técnica e diagnóstico</div>
+          <p style="color:#cfc9ba;font-size:14px;line-height:1.65;margin:0;">Avaliamos equipamentos em operação, parados ou com falhas recorrentes, analisando sistemas mecânicos, hidráulicos, estruturais, elétricos e de perfuração, a partir de sintomas como aquecimento, vazamentos, vibrações, baixa rotação e desgaste acelerado.</p>
+        </div>
+        <div style="background:linear-gradient(160deg,#211c14 0%,#15120d 100%);border:1px solid #2e2819;border-radius:18px;padding:30px 28px;">
+          <div style="color:#f0a91e;font-family:'Oswald',sans-serif;font-weight:600;font-size:16px;margin-bottom:10px;">Manutenção preventiva e corretiva</div>
+          <p style="color:#cfc9ba;font-size:14px;line-height:1.65;margin:0;">A preventiva inclui inspeções, verificação de desgastes, ajustes e lubrificação. Na corretiva, priorizamos recuperação e reparo antes da substituição completa, sempre que tecnicamente viável.</p>
+        </div>
+        <div style="background:linear-gradient(160deg,#211c14 0%,#15120d 100%);border:1px solid #2e2819;border-radius:18px;padding:30px 28px;">
+          <div style="color:#f0a91e;font-family:'Oswald',sans-serif;font-weight:600;font-size:16px;margin-bottom:10px;">Reforma e recuperação</div>
+          <p style="color:#cfc9ba;font-size:14px;line-height:1.65;margin:0;">Planejamos reformas com base no estado do equipamento, histórico de manutenção e componentes críticos, recuperando sistemas e restabelecendo a confiabilidade operacional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section style="background:#17140f;padding:88px 24px;">
+    <div style="max-width:1240px;margin:0 auto;">
+      <div style="color:#f0a91e;font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.14em;font-size:13px;margin-bottom:10px;text-transform:uppercase;">Resultado para a operação</div>
+      <h2 style="font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(26px,3.4vw,36px);margin:0 0 40px;color:#faf8f3;text-transform:uppercase;">Benefícios para o cliente</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0 32px;">
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Redução de paradas não programadas</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Maior disponibilidade e confiabilidade</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Prolongamento da vida útil dos componentes</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Menor necessidade de substituições desnecessárias</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Melhor planejamento de manutenções e reformas</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Identificação antecipada de riscos</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Recuperação de componentes de alto valor</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Redução de retrabalhos</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Maior controle de custos e prazos</span></div>
+        <div style="display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid #2c2619;"><span style="color:#f0a91e;font-weight:700;flex:none;">✓</span><span style="font-size:14.5px;color:#e2ddd0;">Melhoria do desempenho e da produtividade</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" style="background:#100d09;padding:96px 24px;border-top:1px solid #2c2619;">
+    <div style="max-width:840px;margin:0 auto;text-align:center;">
+      <div style="color:#f0a91e;font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.14em;font-size:13px;margin-bottom:14px;text-transform:uppercase;">Fale com a SNADRILL</div>
+      <h2 style="font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(26px,4vw,40px);margin:0 0 18px;color:#faf8f3;text-transform:uppercase;">Precisa alugar, avaliar ou reformar um equipamento?</h2>
+      <p style="font-size:16px;line-height:1.7;color:#cfc9ba;margin:0 0 36px;">Fale com a nossa equipe e solicite uma avaliação técnica para identificar as melhores alternativas para o seu equipamento e sua operação.</p>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-bottom:44px;">
+        <a href="https://wa.me/5561981053844" style="background:#f0a91e;color:#1a1608;text-decoration:none;font-weight:700;font-size:15px;padding:16px 32px;border-radius:999px;box-shadow:0 10px 26px -12px rgba(240,169,30,.9);">WhatsApp (61) 98105-3844</a>
+        <a href="tel:+556499014568" style="background:rgba(255,255,255,.04);border:1px solid #4a4638;color:#faf8f3;text-decoration:none;font-weight:600;font-size:15px;padding:16px 32px;border-radius:999px;">Ligar (64) 99901-4568</a>
+      </div>
+      <div style="display:flex;gap:32px;flex-wrap:wrap;justify-content:center;font-size:14px;color:#9b9585;border-top:1px solid #2c2619;padding-top:32px;">
+        <span>contato@snadrillmaquinas.com.br</span>
+        <span>Rua Manoel Lourenço, Qd 06 L.05, Setor Pedro Machado, Crixás/GO, CEP 76510-000</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background:#0b0906;padding:28px 24px;">
+    <div style="max-width:1240px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+      <img src="assets/logo.png" alt="SNADRILL" style="height:34px;width:auto;display:block;">
+      <span style="font-size:13px;color:#6f6a5c;">© 2026 SNADRILL Máquinas e Serviços</span>
+    </div>
+  </footer>
+
+</div>
+
+</x-dc>
+</body>
+</html>
