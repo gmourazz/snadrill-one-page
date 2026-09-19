@@ -11,10 +11,10 @@ const equipments = [
     tag: "Perfuratriz de superfície",
     title: "Atlas Copco ROC D7",
     description:
-      "Perfuratriz hidráulica sobre esteiras, com lança articulada e sistema Top Hammer, indicada para furos de produção em mineração, pedreiras e desmonte de rocha.",
+      "Perfuratriz hidráulica sobre esteiras, sistema Top Hammer, indicada para produção de furos em mineração, pedreiras e infraestrutura como rodovias e ferrovias.",
     features: [
       "Deslocamento sobre esteiras",
-      "Lança hidráulica articulada, 360°",
+      "Lança hidráulica articulada",
       "Cabine com comandos hidráulicos e eletrônicos",
     ],
   },

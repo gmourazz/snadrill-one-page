@@ -29,7 +29,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="mb-3.5 font-display text-xs font-semibold tracking-[0.14em] text-amber uppercase sm:text-sm"
         >
-          Locação de perfuratrizes e equipamentos de perfuração
+          Locação de equipamentos de perfuração
         </motion.div>
 
         <motion.h1
@@ -47,8 +47,8 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.6 }}
           className="mb-8 max-w-xl text-base leading-relaxed text-[#e2ddd0] sm:text-[17px]"
         >
-          Locamos perfuratrizes hidráulicas e equipamentos de perfuração para mineração, pedreiras,
-          infraestrutura e desmonte de rocha, com suporte técnico especializado da SNADRILL.
+          Locamos perfuratrizes hidráulicas para perfuração de rochas em mineradoras, pedreiras e
+          obras de infraestrutura, com suporte técnico especializado da SNADRILL.
         </motion.p>
 
         <motion.div

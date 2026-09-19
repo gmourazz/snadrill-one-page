@@ -44,7 +44,7 @@ export default function Servicos() {
             Manutenção especializada
           </div>
           <h2 className="mb-3.5 font-display text-[26px] font-bold text-ink-strong uppercase sm:text-[32px] lg:text-[38px]">
-            Manutenção de perfuratrizes e equipamentos de perfuração
+            Manutenção de perfuratrizes e componentes de perfuratrizes
           </h2>
           <p className="mb-10 max-w-3xl text-base leading-loose text-[#4a463f] sm:mb-12">
             Avaliação técnica, assistência especializada, manutenção preventiva e corretiva,
