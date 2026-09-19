@@ -38,7 +38,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-amber/15 bg-night-deep">
       <div className="mx-auto flex max-w-310 items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="#top" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <img src={logo} alt="SNADRILL" className="h-10 w-auto sm:h-12" />
+          <img src={logo} alt="SNADRILL" className="h-13 w-auto sm:h-16" />
         </a>
 
         <nav className="hidden items-center gap-6 md:flex">

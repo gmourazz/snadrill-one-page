@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Servicos from "./components/Servicos";
 import Sobre from "./components/Sobre";
+import Videos from "./components/Videos";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <Equipamentos />
+        <Videos />
         <Sobre />
         <Servicos />
         <Beneficios />
