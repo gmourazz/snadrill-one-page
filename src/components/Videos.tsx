@@ -26,14 +26,14 @@ export default function Videos() {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8">
           {videos.map((video, index) => (
             <Reveal key={video.src} delay={index * 0.12}>
-              <div className="overflow-hidden rounded-2xl border border-[#2e2819] bg-black shadow-[0_18px_44px_-28px_rgba(0,0,0,0.6)]">
+              <div className="mx-auto max-h-130 max-w-[320px] overflow-hidden rounded-2xl border border-[#2e2819] bg-black shadow-[0_18px_44px_-28px_rgba(0,0,0,0.6)]">
                 <video
                   src={video.src}
                   poster={posterImg}
                   controls
                   preload="metadata"
                   playsInline
-                  className="aspect-video h-full w-full"
+                  className="block h-auto max-h-130 w-full"
                 >
                   Seu navegador não suporta vídeo em HTML5.
                 </video>
